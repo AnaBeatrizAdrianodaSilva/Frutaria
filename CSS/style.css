@@ -14,7 +14,11 @@
     --cor1: #044D29;   
     --cor2: #168039;   
     --cor3: #45BF55;   
-    --cor4: #97ED8A;   
+    --cor4: #97ED8A;
+    
+    --fontNunito: 'Nunito', sans-serif;;
+    --fontExo: 'Exo 2', sans-serif; 
+    --fontDancing: 'Dancing Script', cursive;
 }
 
 /* config´s globais */
@@ -23,4 +27,175 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+hr {
+    margin-top: 100px;
+}
+
+/* Menu */
+
+.menu {
+    background-color: var(--cor2);
+    font-family: var(--fontNunito);
+    font-weight: bolder;
+    width: 100%;
+    height: 150px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menuLink {
+    color: var(--cor0);
+    text-decoration: none;
+}
+
+.menuLink:hover {
+    color: var(--cor4);
+}
+
+.pesq {
+    width: 385px;
+    height: 54px;
+    border: 0;
+    margin: 0;
+    padding: 0 25px;
+}
+
+.pesq {
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+
+.btnPesq {
+    background-color: var(--cor4);
+    color: var(--cor0);
+    width: 70px;
+    height: 54px;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.btnPesq:hover {
+    background-color: var(--cor0);
+    color: var(--cor4);
+}
+
+/* Baner */
+
+.baner {
+    height: 500px;
+
+    background-image: linear-gradient(rgba(12, 12, 12, 0.3),rgba(12, 12, 12, 0.3)), url(https://frutafruta.com.br/wp-content/uploads/2022/01/capa2022.jpg);
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0;
+    z-index: 1;
+}
+
+.titulo {
+    text-align: center;
+    color: white;
+}
+
+.princTitulo {
+    font-family: var(--fontExo);
+    font-size: 3.5em;
+    padding-top: 170px;
+}
+
+.princTitulo:hover {
+    color: var(--cor3);
+}
+
+.subTitulo {
+    font-family: var(--fontDancing);
+    font-size: 3em;
+    padding-top: 25px;
+}
+
+.subTitulo:hover {
+    color: var(--cor4);
+}
+
+/* Corpo - Principal */
+
+.corpo {
+    margin-top: 100px;
+}
+
+/* Compras */
+
+.compras {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.frutas {
+    background-color: var(--cor1);
+    width: 350px;
+    height: 400px;
+    margin-bottom: 60px;
+}
+
+.imgFruta {
+    width: 240px;
+    height: 240px;
+    margin: 25px 0 0 55px;
+}
+
+.infoFrutas {
+    text-align: center;
+    padding-top: 5px;
+    color: black;
+}
+
+.infoFrutas p {
+    font-family: var(--fontNunito);
+    font-weight: bold;
+    font-size: 1.15555em;
+    padding-top: 5px;
+}
+
+#preco:hover {
+    color: white;
+}
+
+.btnFrutas {
+    background-color: var(--cor0);
+    color: var(--cor3);
+    width: 205px;
+    height: 34px;
+    margin-top: 15px;
+    border: 0;
+}
+
+.btnFrutas:hover {
+    background-color: var(--cor3);
+    color: var(--cor0);
+}
+
+/* Footer */
+
+.rodape {
+    background-color: var(--cor2);
+    width: 100%;
+    height: 50px;
+}
+
+.rodape p {
+    text-align: center;
+    font-family: var(--fontNunito);
+    font-weight: bolder;
+    font-size: 1.3em;
+    padding-top: 7px;
+    margin-top: 250px;
 }

@@ -12,16 +12,16 @@
       rel="stylesheet">
 </head>
 <body>
-    <nav>
+    <nav class="menu">
         <img src="../img/logo.png" alt="">
-        <a href="#">Frutas</a>
-        <a href="#">Legumes</a>
-        <a href="#">Verduras</a>
-        <a href="#">Orgânicos</a>
+        <a class="menuLink" href="#">Frutas</a>
+        <a class="menuLink" href="#">Legumes</a>
+        <a class="menuLink" href="#">Verduras</a>
+        <a class="menuLink" href="#">Orgânicos</a>
 
         <form>
-            <input type="text" placeholder="O que você procura?">
-            <input type="submit" value="Procurar">
+            <input class="pesq" type="text" placeholder="O que você procura?">
+            <input class="btnPesq" type="submit" value="Procurar">
         </form>
 
         <span class="material-icons-outlined">
@@ -31,26 +31,129 @@
             shopping_cart
         </span>
     </nav>
-    <header>
-        <img src="" alt="">
-        <h1>Frutas Online</h1>
-        <h2>Delivery</h2>
-    </header>
-    <main>
-        <section class="frutas">
 
+    <header class="baner">
+        <h1 class="titulo princTitulo">Frutas Online</h1>
+        <h2 class="titulo subTitulo">Delivery</h2>
+    </header>
+
+    <main  class="corpo">
+        <section class="compras">
+            <div class="frutas">
+                <figure>
+                    <img class="imgFruta" src="img/limão.jpg" alt="">
+                </figure>
+                <figcaption class="infoFrutas">
+                    <p>Limão Siciliano</p>  
+                    <p id="preco">R&#36;4,00</p>
+                    <input  class="btnFrutas" type="button" value="Comprar">
+                </figcaption>
+            </div>
+
+            <div class="frutas">
+                <figure>
+                    <img class="imgFruta" src="img/maca.jpg" alt="">
+                </figure>
+                <figcaption class="infoFrutas">
+                    <p>Maça</p>  
+                    <p id="preco">R&#36;2,25</p>
+                    <input class="btnFrutas" type="button" value="Comprar">
+                </figcaption>
+            </div>
+
+            <div class="frutas">
+                <figure>
+                    <img class="imgFruta" src="img/couve.jpg" alt="">
+                </figure>
+                <figcaption class="infoFrutas">
+                    <p>Couve</p>  
+                    <p id="preco">R&#36;3,50</p>
+                    <input class="btnFrutas" type="button" value="Comprar">
+                </figcaption>
+            </div>
+
+            <div class="frutas">
+                <figure>
+                    <img class="imgFruta" src="img/alho-poró.jpg" alt="">
+                </figure>
+                <figcaption class="infoFrutas">
+                    <p>Alho Poró</p>  
+                    <p id="preco">R&#36;4,50</p>
+                    <input class="btnFrutas" type="button" value="Comprar">
+                </figcaption>
+            </div>
+
+            <div class="frutas">
+                <figure>
+                    <img class="imgFruta" src="img/melancia.png" alt="">
+                </figure>
+                <figcaption class="infoFrutas">
+                    <p>Melancia</p>  
+                    <p id="preco">R&#36;10,00</p>
+                    <input class="btnFrutas" type="button" value="Comprar">
+                </figcaption>
+            </div>
+
+            <div class="frutas">
+                <figure>
+                    <img class="imgFruta" src="img/abacaxi.jpg" alt="">
+                </figure>
+                <figcaption class="infoFrutas">
+                    <p>Abacaxi</p>  
+                    <p id="preco">R&#36;7,00</p>
+                    <input class="btnFrutas" type="button" value="Comprar">
+                </figcaption>
+            </div>
+
+            <div class="frutas">
+                <figure>
+                    <img class="imgFruta" src="img/cenoura.jpg" alt="">
+                </figure>
+                <figcaption class="infoFrutas">
+                    <p>Cenoura</p>  
+                    <p id="preco">R&#36;5,00</p>
+                    <input class="btnFrutas" type="button" value="Comprar">
+                </figcaption>
+            </div>
+
+            <div class="frutas">
+                <figure>
+                    <img class="imgFruta" src="img/alface.png" alt="">
+                </figure>
+                <figcaption class="infoFrutas">
+                    <p>Alface</p>  
+                    <p id="preco">R&#36;4,00</p>
+                    <input class="btnFrutas" type="button" value="Comprar">
+                </figcaption>
+            </div>
+
+            <div class="frutas">
+                <figure>
+                    <img class="imgFruta" src="img/tangerina.jpg" alt="">
+                </figure>
+                <figcaption class="infoFrutas">
+                    <p>Tangerina</p>  
+                    <p id="preco">R&#36;2,50</p>
+                    <input class="btnFrutas" type="button" value="Comprar">
+                </figcaption>
+            </div>
         </section>
+
+        <hr>
 
         <section class="categorias">
 
         </section>
 
+        <hr>
+
         <form class="contato">
 
         </form>
     </main>
-    <footer>
-        <p>&copy; Ana Beatriz </p>
+
+    <footer class="rodape">
+        <p>&copy; Ana Beatriz</p>
     </footer>
 </body>
 </html>
