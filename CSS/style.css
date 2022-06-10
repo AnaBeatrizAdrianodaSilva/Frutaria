@@ -75,9 +75,9 @@ hr {
     color: var(--cor0);
     width: 70px;
     height: 54px;
-    border: 0;
     margin: 0;
     padding: 0;
+    border: 0;
 }
 
 .btnPesq:hover {
@@ -176,6 +176,7 @@ hr {
     height: 34px;
     margin-top: 15px;
     border: 0;
+    border-radius: 5px;
 }
 
 .btnFrutas:hover {
