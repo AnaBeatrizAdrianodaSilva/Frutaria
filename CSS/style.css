@@ -105,6 +105,16 @@ hr {
     font-weight: bold;
 }
 
+.iconLink {
+    color: black;
+    text-decoration: none;
+    text-shadow: 4px 2px 10px #0000004d;
+}
+
+.iconLink:hover {
+    opacity: 0.5;
+}
+
 /* Baner */
 
 .baner {
