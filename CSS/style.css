@@ -126,7 +126,7 @@ hr {
     background-size: cover;
     border-radius: 0;
     z-index: 1;
-    box-shadow: 4px 14px 20px 2px #0000009e;
+    box-shadow: 5px 5px 20px 0px #00000054;
 }
 
 .titulo {
@@ -179,7 +179,7 @@ hr {
     height: 400px;
     margin-bottom: 60px;
     border-radius: 5px;
-    box-shadow: 14px 20px 18px 0px #00000052;
+    box-shadow: 5px 5px 20px 0px #00000054;
 }
 
 .imgFruta {
@@ -235,7 +235,7 @@ hr {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    box-shadow: 4px 14px 20px 2px #00000044;
+    box-shadow: 5px 5px 20px 0px #00000054;
 }
 
 .categ {
@@ -330,7 +330,7 @@ hr {
     background-color: var(--cor1);
     width: 900px;
     height: 700px;
-    margin-left: 185px;
+    margin-left: 18%;
     border-radius: 3px;
     box-shadow: 5px 5px 20px 0px #00000054;
 }
@@ -412,4 +412,12 @@ hr {
     font-size: 1.3em;
     padding-top: 7px;
     margin-top: 250px;
+}
+
+/* Responsividade */
+
+@media (min-width: 1920px) {
+    .formContato {
+        margin-left: 750px;
+    }
 }
